@@ -7,4 +7,4 @@ if timestamps > 17:
 elif timestamps > 12:
     print("Good Afternoon")
 else:
-    print("Good Evening")
+    print("Good Morning")
