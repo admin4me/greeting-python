@@ -2,9 +2,9 @@
 import time
 timestamp = time.strftime('%H')
 timestamps = int(timestamp)
-if timestamps > 00:
-    print("Good Morning")
+if timestamps > 17:
+    print("Good Evening")
 elif timestamps > 12:
     print("Good Afternoon")
 else:
-    print("Good Evening")
+    print("Good Morning")
